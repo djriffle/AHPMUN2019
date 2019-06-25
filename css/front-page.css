@@ -1,0 +1,48 @@
+#background{
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+#tagline
+{
+    position: absolute;
+    font-size: 2.5vh;
+    top: 5%;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-style: italic;
+    font-style: bold;
+}
+#title
+{
+    position: fixed;
+    font-size: 6vw;
+    height: 10%;
+    top: 30%;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    font-style: bold;
+    text-decoration: underline;
+}
+#date{
+    padding-top: 4vw;
+    position: fixed;
+    font-size: 3vw;
+    height: 10%;
+    top: 35%;
+    text-align: center;
+    width: 50%;
+    left: 25%;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+   
+
+}
