@@ -4,6 +4,9 @@
   bottom: 0;
   min-width: 100%; 
   min-height: 100%;
+  background-image: url("https://media.licdn.com/dms/image/C4D1BAQEoMt9wIUZUuw/company-background_10000/0?e=2159024400&v=beta&t=S4DZXoJZXS5hWO939Pnl8A50gy26AnEEWLi2j4XnVMU");
+  background-size: cover;
+  
 }
 #tagline
 {
@@ -75,3 +78,15 @@
     text-shadow: 1px 1px 2px black; 
 
 }
+
+.hidden-xs {
+    display: none;
+  }
+  
+  /* dummy criterion for demo purposes */
+  
+  @media screen and (min-width: 400px) {
+    .hidden-xs {
+      display: block;
+    }
+  }
