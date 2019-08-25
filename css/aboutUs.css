@@ -1,6 +1,51 @@
-#secBack{
+body{
+    background-color:grey;
+}
+.headerBack{
     width: 100%;
-    height:10%;
+    height:20%;
     position: relative;
-    background-image: 
+    background-color:#FFB33E;
+}
+.header{
+    width:100vw;
+    height:30%;
+    text-align:center;
+    color:black;
+    font-style: bold;
+    font-size: 9vh;
+}
+body{
+    background-color:grey;
+}
+#staff{
+    align-content: center;
+    text-align: center;
+}
+.card{
+    border-radius: 25px;
+    box-shadow: 5px 5px 3px 1px rgb(0,0,0,0.2);
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top:3vh;
+    margin-bottom:3vh;
+    width: 40vw;
+    height:40vh;
+    transition: transform .2s;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+#title{
+    font-style: bold;
+    text-decoration: underline;
+    font-size:12vh;
+    width:100%;
+    text-align: center;
+}
+#desc{
+    margin-left:10%;
+    width:80%;
+    font: size 3vh;
+    text-align: center;
 }
