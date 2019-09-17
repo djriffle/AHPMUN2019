@@ -40,3 +40,21 @@
   $(window).scroll(navbarCollapse);
 
 })(jQuery); // End of use strict
+function dspecpol(){
+  window.location.href = "guides/specpol.pdf";
+}
+function dboshin(){
+  window.location.href = "guides/boshin.pdf";
+}
+function dmafia(){
+  window.location.href = "guides/mafia.pdf";
+}
+function dsochum(){
+  window.location.href = "guides/sochum.pdf";
+}
+function dunhrc(){
+  window.location.href = "guides/unhrc.pdf";
+}
+function dunsc(){
+  window.location.href = "guides/unsc.pdf";
+}
